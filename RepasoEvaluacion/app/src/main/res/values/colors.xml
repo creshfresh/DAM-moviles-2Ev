@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Negro">#FF000000</color>
+    <color name="backo_app">#610471</color>
+
+    <color name="Blanco">#FFFFFFFF</color>
+
+    <color name="Naranja">#FF6F00</color>
+    <color name="Amarillo">#FFBF00</color>
+    <color name="Rojo">#FF0000</color>
+    <color name="Azul">#3F51B5</color>
+    <color name="Cian">#00E2FF</color>
+    <color name="Gris">#5E5E5E</color>
+    <color name="Verde">#00FF0A</color>
+    <color name="Violeta">#9C27B0</color>
+    <color name="button">#700188</color>
+</resources>

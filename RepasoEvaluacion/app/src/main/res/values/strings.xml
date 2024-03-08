@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RepasoEvaluacion</string>
+    <string name="blanco">Blanco</string>
+    <string name="negro">Negro</string>
+    <string name="naranja">Naranja</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="rojo">Rojo</string>
+    <string name="cian">Cian</string>
+    <string name="gris">Gris</string>
+    <string name="verde">Verde</string>
+    <string name="azul">Azul</string>
+    <string name="violeta">Violeta</string>
+    <string name="chooseColor">Elige un color</string>
+    <string name="red">Rojo</string>
+
+</resources>

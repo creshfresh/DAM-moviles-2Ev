@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50dp"
+    tools:context=".MainActivity"
+    android:background="@color/fondoApp">
+
+    <!-- Layout superior-->
+    <LinearLayout
+        android:id="@+id/layoutSuperior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            style="@style/textos"
+            android:id="@+id/tvBlanco"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:background="@color/Blanco"
+            android:gravity="center"
+            android:text="@string/blanco"></TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layaoutMedio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutSuperior">
+
+        <TextView
+            style="@style/textos"
+            android:id="@+id/tvRojo"
+            android:layout_width="100dp"
+            android:layout_height="200dp"
+            android:background="@color/Rojo"
+            android:gravity="center"
+            android:text="@string/rojo"
+            android:textColor="@color/Blanco"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/textos"
+                    android:id="@+id/tvNaranja"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/Naranja"
+                    android:gravity="center"
+                    android:text="@string/naranja"></TextView>
+
+                <TextView
+                    style="@style/textos"
+                    android:id="@+id/tvAmarillo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:background="@color/Amarillo"
+                    android:gravity="center"
+                    android:text="@string/amarillo">
+
+                </TextView>
+
+            </LinearLayout>
+            <TextView
+                style="@style/textos"
+                android:id="@+id/tvVerde"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@color/Verde"
+                android:gravity="center"
+                android:text="@string/verde">
+
+            </TextView>
+
+        </LinearLayout>
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutInferior"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layaoutMedio"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textos"
+                android:id="@+id/tvCian"
+                android:layout_width="200dp"
+                android:layout_height="100dp"
+                android:background="@color/Cian"
+                android:gravity="center"
+                android:text="@string/cian"></TextView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/textos"
+                    android:id="@+id/tvAzul"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:background="@color/Azul"
+                    android:gravity="center"
+                    android:textColor="@color/Blanco"
+                    android:text="@string/azul">
+
+                </TextView>
+                <TextView
+                    style="@style/textos"
+                    android:id="@+id/tvVioleta"
+                    android:layout_width="100dp"
+                    android:layout_height="200dp"
+                    android:background="@color/Violeta"
+                    android:gravity="center"
+                    android:textColor="@color/Blanco"
+                    android:text="@string/violeta">
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/textos"
+                android:id="@+id/tvGris"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:background="@color/Gris"
+                android:gravity="center"
+                android:textColor="@color/Blanco"
+                android:text="@string/gris">
+            </TextView>
+            <TextView
+                style="@style/textos"
+                android:id="@+id/tvNegro"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/Negro"
+                android:gravity="center"
+                android:textColor="@color/Blanco"
+                android:text="@string/negro">
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

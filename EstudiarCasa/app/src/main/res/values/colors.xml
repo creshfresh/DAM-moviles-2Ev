@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="fondoApp">#771093</color>
+    <color name="fondoDialog">#EB2EA0</color>
+    <color name="bttonDialog">#5C0058</color>
+
+
+    <color name="Negro">#FF000000</color>
+    <color name="Blanco">#FFFFFFFF</color>
+    <color name="Rojo">#FF0000</color>
+    <color name="Violeta">#C800FF</color>
+    <color name="Azul">#0027FF</color>
+    <color name="Cian">#00B0FF</color>
+    <color name="Gris">#939393</color>
+    <color name="Verde">#00D309</color>
+    <color name="Amarillo">#FFE500</color>
+    <color name="Naranja">#FF6600</color>
+
+</resources>
